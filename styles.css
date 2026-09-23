@@ -52,7 +52,7 @@ ul {
 }
 
 .btn-primary {
-    background-color: var(--primary-color);
+    background-color: #0f0d09;
     color: var(--white);
 }
 
@@ -401,7 +401,6 @@ ul {
     margin-top: 15px;
 }
 
-/* Footer Section */
 .footer {
     background-color: var(--dark-bg);
     color: var(--white);
@@ -470,7 +469,7 @@ ul {
 
 .link-col p, .link-col a, .link-col li {
     font-size: 0.85rem;
-    color: #a0a0a0;
+    color: #0b0505;
     margin-bottom: 12px;
     display: block;
     transition: color 0.3s ease;
@@ -499,10 +498,10 @@ ul {
     padding: 30px 5%;
     border-top: 1px solid rgba(255,255,255,0.1);
     font-size: 0.75rem;
-    color: #808080;
+    background-color: var(--dark-bg);
+    color: #0c0c0c;
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
     .hero-content h2 {
         font-size: 3.5rem;
