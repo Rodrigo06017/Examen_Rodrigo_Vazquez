@@ -456,6 +456,7 @@ ul {
 }
 
 .footer-links {
+    color: var(--surface-bg);
     display: flex;
     gap: 80px;
 }
@@ -469,7 +470,7 @@ ul {
 
 .link-col p, .link-col a, .link-col li {
     font-size: 0.85rem;
-    color: #0b0505;
+    color: var(--surface-bg);
     margin-bottom: 12px;
     display: block;
     transition: color 0.3s ease;
@@ -499,7 +500,7 @@ ul {
     border-top: 1px solid rgba(255,255,255,0.1);
     font-size: 0.75rem;
     background-color: var(--dark-bg);
-    color: #0c0c0c;
+    color: var(--surface-bg);
 }
 
 @media (max-width: 1024px) {
