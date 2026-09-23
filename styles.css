@@ -1,14 +1,15 @@
 /* Base Styles */
 :root {
-    --primary-color: #a98d5c; /* Golden/brown */
-    --primary-hover: #8f7446;
-    --dark-bg: #15241e; /* Dark green/black */
-    --light-bg: #f9f9f7; /* Off-white */
-    --text-dark: #2d2d2d;
-    --text-light: #6a6a6a;
+    --primary-color: #C6A04A; /*Color /
+    --primary-hover: #b58c35;
+    --dark-bg: #102A21; /* Hero / footer / Verde bosque */
+    --light-bg: #F5F0E6; /* Fondo principal / Marfil cálido */
+    --surface-bg: #DDD3C4; /* Superficie / Arena clara */
+    --text-dark: #25231F; /* Texto principal / Carbón */
+    --text-light: #68745F; /* Secundario / Verde oliva */
     --white: #ffffff;
-    --font-sans: 'Inter', sans-serif;
-    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Manrope', sans-serif;
+    --font-serif: 'Cormorant Garamond', serif;
 }
 
 * {
@@ -20,13 +21,13 @@
 body {
     font-family: var(--font-sans);
     color: var(--text-dark);
-    background-color: var(--white);
+    background-color: var(--light-bg);
     line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
-    font-weight: 400;
+    font-weight: 600;
 }
 
 a {
@@ -203,7 +204,7 @@ ul {
 /* Services Section */
 .services {
     padding: 100px 5%;
-    background-color: var(--light-bg);
+    background-color: var(--surface-bg);
 }
 
 .services-header {
@@ -256,7 +257,7 @@ ul {
     padding: 100px 5%;
     align-items: center;
     gap: 50px;
-    background-color: var(--light-bg);
+    background-color: var(--surface-bg);
 }
 
 .project-image {
@@ -316,7 +317,7 @@ ul {
 .testimonial {
     padding: 100px 5%;
     text-align: center;
-    background-color: var(--light-bg);
+    background-color: var(--surface-bg);
 }
 
 .testimonial h2 {
